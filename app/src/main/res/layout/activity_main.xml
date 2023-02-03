@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="MissingDefaultResource">
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="start"
+        android:text="启动" />
+    <Button
+        android:id="@+id/btnclose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="close"
+        android:text="关闭" />
+    <Button
+        android:id="@+id/btnopen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="open"
+        android:text="开启服务,端口10086" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="fly"
+        android:text="Fly" />
+    <TextView
+        android:id="@+id/txtV"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:text="@string/txt" />
+
+</LinearLayout>

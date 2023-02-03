@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyAp</string>
+    <string name="open">开启</string>
+    <string name="btclose">关闭</string>
+
+    <string name="txt">API:</string>
+</resources>
